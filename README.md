@@ -9,8 +9,7 @@ Heading 2
 -----------------------------
 
 \.
-```
-#!php
+```php
 <?php 
 	global $wpdb;
 	$wpdb->get_results("SELECT * FROM wp_posts");
