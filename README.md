@@ -12,7 +12,8 @@ Heading 2
 ```php
 <?php 
 	global $wpdb;
-	$wpdb->get_results("SELECT * FROM wp_posts");
+	$results = $wpdb->get_results("SELECT * FROM wp_posts");
+	var_dump( $results );
 ?>
 ```
 
